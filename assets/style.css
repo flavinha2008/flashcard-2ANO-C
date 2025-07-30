@@ -3,6 +3,18 @@ body{
     font-family: Bai Jamjuree;
 }
 
+#conteiner {
+    display: flex;
+}
+
+.cartao {
+margin: 1rem 1rem;
+background-color: rgb(240, 38, 55);
+height: 20rem;
+flex-grow: 1;
+flex-basis: calc(33% - 6rem);
+}
+
 footer{
 background-color: rgb(247, 139, 168);
 color: beige;
